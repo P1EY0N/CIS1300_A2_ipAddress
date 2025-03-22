@@ -82,7 +82,7 @@ void readIPAddress(char ipAddress[MAX])
 // Task 2
 long int convertIPToLongNumber(char ipAddress[MAX], int lengthIPAddr, int *numDigits)
 {
-    // convert ipAddress string to digit (each single digit stor in array number), exclude '.'
+    // convert ipAddress string to digit (each single digit store in array number), exclude '.'
     int octet[4];
     int octetIndex = 0;
     int tempStorage = 0;
